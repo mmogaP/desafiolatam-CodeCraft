@@ -1,2 +1,0 @@
-# desafiolatam-CodeCraft
-Prueba pipeline
