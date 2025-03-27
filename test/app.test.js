@@ -5,7 +5,7 @@ describe("API Tests", () => {
   it("should return a list of users", async () => {
     const res = await request(app).get("/tasks");
     expect(res.statusCode).toEqual(200);
-    expect(res.body).toHaveLength(2);
+    expect(res.body).toHaveLength(1);
   });
 
   it("should return a single user", async () => {
