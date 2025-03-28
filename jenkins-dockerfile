@@ -1,0 +1,16 @@
+FROM jenkins/jenkins:lts-jdk17
+USER root
+
+# Install Docker CLI
+RUN apt-get update && apt-get install -y docker.io
+
+# Install Node.js and npm
+RUN apt-get install -y curl
+RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
+RUN apt-get install -y nodejs
+
+# Verify installations
+RUN node --version
+RUN npm --version
+
+USER jenkins
