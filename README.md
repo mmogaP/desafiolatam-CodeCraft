@@ -1,4 +1,4 @@
-Integrantes equipo:
+# Integrantes equipo:
 - Sandrino Escobar
 - Nicolas Calvo
 - Igor Ianiszewski
